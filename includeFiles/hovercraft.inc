@@ -23,7 +23,7 @@
 			transform{ scale 0.25 rotate 75 * y translate < -4, 0, 12 > }
 			transform{ scale 4 rotate 45 * y translate 14 * z }
 	
-	You can use these sets of macro to display informations in the the console (see the far end of this file):
+	You can use these sets of macros to display informations in the console (see the far end of this file):
 		HoverCraft_DisplaySize()
 		HoverCraft_DisplayBoundaries()
 		HoverCraft_DisplayCenterCoordinates()
