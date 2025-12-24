@@ -918,7 +918,7 @@ union{
 
 #macro HoverCraft_PlaceObject(AreFansTurning, Frame, FramesNumber, IsThereDirtOnFloater, Transform)
 	#if( FramesNumber <= 0 )
-		#error "Parse error in 'HoverCraft_PlaceObject()' macro (line 611 of hovercraft.inc file: Frames number was set to 0. Set it to 1 or more."
+		#error "Parse error in 'HoverCraft_PlaceObject()' macro (line 244 of hovercraft.inc file: Frames number was set to 0. Set it to 1 or more to avoid dividing by zero."
 	#end
 	
 	union{
